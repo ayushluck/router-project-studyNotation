@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import logo from '../assets/Logo.svg';
 import { Link } from 'react-router-dom'
 import toast from 'react-hot-toast';

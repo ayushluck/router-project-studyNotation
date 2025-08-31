@@ -22,7 +22,7 @@ const Signupform = ({setIsLoggedIn}) => {
     const[showPassword1,setShowPassword1] = useState(false);
     function submitHandler(event){
         event.preventDefault();
-        if(formData.password != formData.confirmPassword){
+        if(formData.password !== formData.confirmPassword){
             toast.error("Passwords do not match");
         }
         else{
